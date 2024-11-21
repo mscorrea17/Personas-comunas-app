@@ -16,4 +16,3 @@ Route::delete('/comunas/{comuna}',[ComunaController::class,'destroy'])->name('co
 Route::put('/comunas/{comuna}',[ComunaController::class,'update'])->name('comunas.update');
 Route::get('/comunas/{comuna}/edit',[ComunaController::class,'edit'])->name('comunas.edit');
 
-#delete comuna
