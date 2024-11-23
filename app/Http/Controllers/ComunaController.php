@@ -49,8 +49,6 @@ class ComunaController extends Controller
         $comuna->muni_codi = $request->muni_codi;
         $comuna->save();
         return json_encode(['comuna' => $comuna]);
-
-
     }
 
     /**
